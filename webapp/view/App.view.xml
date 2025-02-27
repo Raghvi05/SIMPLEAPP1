@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="sap.btp.simpleapp1.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+>
+	<Shell>
+		<App class="myAppDemoWT">
+			<pages>
+				<Page title="{i18n>homePageTitle}">
+					<content>
+		
+						<mvc:XMLView
+							viewName="sap.btp.simpleapp1.view.InvoiceList"
+						/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
