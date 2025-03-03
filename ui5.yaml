@@ -17,10 +17,9 @@ server:
             - /test-resources
           url: https://ui5.sap.com
         backend:
-          - path: /Northwind
-            pathPrefix: /
-            url: https://services.odata.org                       
-            destination: Northwind
+          - path: /V2
+            url: https://services.odata.org
+           
 
     - name: fiori-tools-appreload
       afterMiddleware: compression
@@ -34,8 +33,4 @@ server:
         component: sap.btp.simpleapp1
         ui5Theme: sap_horizon
 
-    - name: ui5-middleware-simpleproxy
-      afterMiddleware: compression
-      mountPath: /V2
-      configuration:
-        baseUri: "https://services.odata.org"
+  

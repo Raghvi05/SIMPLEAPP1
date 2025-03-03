@@ -30,13 +30,16 @@
     },
     "dataSources": {
       "invoiceRemote": {
-        "uri": "/Northwind/V2/Northwind/Northwind.svc/",
-        "type": "OData",
-        "settings": {
-          "odataVersion": "2.0"
+        "uri": "/V2/Northwind/Northwind.svc/",
+                "type": "OData",
+                "settings": {
+                    "annotations": [],
+                    "localUri": "localService/metadata.xml",
+                    "odataVersion": "2.0"
         }
       }
     }
+    
   },
   "sap.ui": {
     "technology": "UI5",
