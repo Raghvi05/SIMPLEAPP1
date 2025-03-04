@@ -38,9 +38,9 @@
                     "odataVersion": "2.0"
         }
       }
-    }
-    
+    }   
   },
+
   "sap.ui": {
     "technology": "UI5",
     "icons": {
@@ -100,19 +100,27 @@
         "viewPath": "sap.btp.simpleapp1.view"
       },
       "routes": [
+       
         {
-          "name": "RouteView1",
-          "pattern": ":?query:",
-          "target": [
-            "TargetView1"
-          ]
-        }
+					"pattern": "",
+					"name": "overview",
+					"target": "overview"
+				},
+				{
+					"pattern": "detail/{invoicePath}",
+					"name": "detail",
+					"target": "detail"
+				}
       ],
       "targets": {
-        "TargetView1": {
-          "id": "View1",
-          "name": "View1"
-        }
+       "overview": {
+					"id": "overview",
+					"name": "Overview"
+				},
+				"detail": {
+					"id": "detail",
+					"name": "Detail"
+				}
       }
     },
     "rootView": {

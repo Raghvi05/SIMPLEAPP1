@@ -23,6 +23,8 @@
 					}
 				}"
 				numberUnit="{view>/currency}"
+				type="Navigation"
+                press=".onPress" 
 			/>
 		</items>
 	</List>

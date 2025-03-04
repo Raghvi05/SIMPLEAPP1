@@ -5,8 +5,11 @@
 	displayBlock="true"
 >
 	<Shell>
-		<App class="myAppDemoWT">
-			<pages>
+		<App class="myAppDemoWT" id="app">
+		
+		<!-- <App id="app"> -->
+
+			<!-- <pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
 		
@@ -15,7 +18,8 @@
 						/>
 					</content>
 				</Page>
-			</pages>
+			</pages> -->
+
 		</App>
 	</Shell>
 </mvc:View>
