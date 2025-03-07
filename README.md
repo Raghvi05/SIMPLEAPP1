@@ -1,4 +1,5 @@
-## Application Details
+## Application Details 
+Adding a line
 |               |
 | ------------- |
 |**Generation Date and Time**<br>Thu Feb 20 2025 11:36:49 GMT+0000 (Coordinated Universal Time)|
